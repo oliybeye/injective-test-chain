@@ -1,0 +1,27 @@
+{
+  "name": "injective-chain",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "tsx main",
+    "wallet": "tsx src/wallet.ts",
+    "tx": "tsx src/tx.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@injectivelabs/sdk-ts": "^1.14.51",
+    "@injectivelabs/utils": "^1.14.48"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.6",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3"
+  }
+}
