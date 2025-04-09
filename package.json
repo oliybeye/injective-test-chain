@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@cosmjs/crypto": "^0.33.1",
     "@injectivelabs/sdk-ts": "^1.14.51",
     "@injectivelabs/utils": "^1.14.48"
   },
